@@ -11,9 +11,9 @@
 
 mkDerivation {
   pname = "instant-deepseq";
-  version = "0.1.0.1";
+  version = "0.2";
   homepage = "https://github.com/k0001/instant-deepseq";
-  description = "Generic Aeson instances through instant-generics";
+  description = "Generic NFData instances through instant-generics";
   license = stdenv.lib.licenses.bsd3;
   src = ../.;
   isLibrary = true;
